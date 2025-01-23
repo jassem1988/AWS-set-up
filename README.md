@@ -7,6 +7,7 @@ Setting up a AWS account and creating EC2.
 
 - Creating EC2
 - SSH
+- EBS Volume
   
 
 ### Tools Used
@@ -46,6 +47,23 @@ ssh -i ~/Desktop/jassem_test.pem ubuntu@(MAC address of the instance)
 >Make sure to type the right username for the right AMI
 8. Then you type you Mac password and agree to the question and then you will be connected to your Instance
 <img width="725" alt="image" src="https://github.com/user-attachments/assets/a76fa3c7-c580-4756-98d9-fbb377583d18" />
+
+### Step to create a EBS Volume and attach it to an instance EC2
+
+1. We create a new volume from the menu
+   
+<img width="762" alt="image" src="https://github.com/user-attachments/assets/c5451ebb-f4db-4d37-ae53-52f9e217e0bf" />
+
+2. We choose a size for the EBS Volume and choose to be encrypted or not
+
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/6f3c6f80-7dd2-4b40-b8d2-3cc159a26030" />
+
+3. Add a tag and name it
+
+<img width="936" alt="image" src="https://github.com/user-attachments/assets/2351a485-0716-4ce7-a992-475ba0fe842f" />
+
+
+
 
 
 
