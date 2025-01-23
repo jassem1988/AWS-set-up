@@ -6,7 +6,7 @@ Setting up a AWS account and creating EC2.
 ### Skills Learned
 
 - Creating EC2
-- 
+- SSH
   
 
 ### Tools Used
