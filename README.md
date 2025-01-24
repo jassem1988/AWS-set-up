@@ -1,3 +1,4 @@
+
 # AWS-set-up
 
 ## Objective
@@ -70,6 +71,8 @@ ssh -i ~/Desktop/jassem_test.pem ubuntu@(MAC address of the instance)
 4. The volume's state will be now Available so we right click and attach the instance
 
 <img width="530" alt="image" src="https://github.com/user-attachments/assets/a0d852c2-5d81-4225-aed9-e434d81b6d61" />
+
+>Usually a new EBS volume will be created for the instance you made.
 
 
 
